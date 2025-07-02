@@ -4,27 +4,34 @@
   align-items: center;
   background-color: #ffffff;
   padding: 20px;
-  margin-top: 20px;
-  border: 1px solid #ffffff;
   border-radius: 10px;
+  gap: 20px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .profile-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  gap: 20px;
 }
 
 .profile-info {
   display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  padding:0 20px;
+  gap: 20px;
 } 
 
 .logo-profile {
   height: 250px;
   width: 250px;
-  padding: 5px;
+  
+}
+
+
+.profile-logo div p {
+  font-size: 1.5rem;
 }
 
 .profile-info-tag {
